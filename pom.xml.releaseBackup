@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>SeleniumWithJava</groupId>
 	<artifactId>SeleniumWithJava</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<name>SeleniumJava</name>
 	<description>Selenium with Java Develop</description>
 
@@ -25,7 +25,7 @@
 		<connection>scm:git:git@github.com:Navdeep-Singh-Ghotra/SeleniumJava.git</connection>
 		<developerConnection>scm:git:git@github.com:Navdeep-Singh-Ghotra/SeleniumJava.git</developerConnection>
 		<url>git@github.com:Navdeep-Singh-Ghotra/SeleniumJava.git</url>
-		<tag>v0.0.1</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 
@@ -60,13 +60,6 @@
 					<tagNameFormat>v@{project.version}</tagNameFormat>
 					<autoVersionSubmodules>true</autoVersionSubmodules>
 				</configuration>
-				<dependencies>
-					<dependency>
-						<groupId>org.apache.maven.shared</groupId>
-						<artifactId>maven-invoker</artifactId>
-						<version>2.2</version>
-					</dependency>
-				</dependencies>
 			</plugin>
 
 		</plugins>

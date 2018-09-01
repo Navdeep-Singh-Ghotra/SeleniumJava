@@ -56,7 +56,6 @@
 				<version>2.5.1</version>
 				<configuration>
 					<tagNameFormat>v@{project.version}</tagNameFormat>
-					<autoVersionSubmodules>true</autoVersionSubmodules>
 				</configuration>
 				<dependencies>
 					<dependency>

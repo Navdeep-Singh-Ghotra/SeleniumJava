@@ -23,7 +23,7 @@
 		<connection>scm:git:git@github.com:Navdeep-Singh-Ghotra/SeleniumJava.git</connection>
 		<developerConnection>scm:git:git@github.com:Navdeep-Singh-Ghotra/SeleniumJava.git</developerConnection>
 		<url>git@github.com:Navdeep-Singh-Ghotra/SeleniumJava.git</url>
-		
+		<tag>v0.0.1</tag>
 	</scm>
 
 

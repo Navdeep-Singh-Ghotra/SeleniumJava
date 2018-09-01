@@ -1,8 +1,10 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>SeleniumWithJava</groupId>
 	<artifactId>SeleniumWithJava</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>SeleniumJava</name>
 	<description>Selenium with Java Develop</description>
 
@@ -23,9 +25,9 @@
 		<connection>scm:git:git@github.com:Navdeep-Singh-Ghotra/SeleniumJava.git</connection>
 		<developerConnection>scm:git:git@github.com:Navdeep-Singh-Ghotra/SeleniumJava.git</developerConnection>
 		<url>git@github.com:Navdeep-Singh-Ghotra/SeleniumJava.git</url>
-		
-	  <tag>v0.0.1</tag>
-  </scm>
+
+		<tag>v0.0.1</tag>
+	</scm>
 
 
 
@@ -37,7 +39,23 @@
 			<artifactId>selenium-java</artifactId>
 			<version>3.14.0</version>
 		</dependency>
+
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.10</version>
+			<scope>test</scope>
+		</dependency>
+
 	</dependencies>
+
+	<repositories>
+		<repository>
+			<id>jcenter</id>
+			<name>bintray</name>
+			<url>http://jcenter.bintray.com</url>
+		</repository>
+	</repositories>
 
 	<build>
 		<sourceDirectory>src</sourceDirectory>

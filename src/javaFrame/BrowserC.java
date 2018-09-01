@@ -14,9 +14,9 @@ public class BrowserC {
 		//Initialising webdriver
 		WebDriver browser=new ChromeDriver();
 		
-		
 		//navigating to website
 		browser.get("http://team-bhp.com");
+		
 		
 		//closing the browser
 		browser.close();

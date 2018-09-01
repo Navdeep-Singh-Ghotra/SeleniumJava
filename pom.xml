@@ -24,7 +24,8 @@
 		<developerConnection>scm:git:git@github.com:Navdeep-Singh-Ghotra/SeleniumJava.git</developerConnection>
 		<url>git@github.com:Navdeep-Singh-Ghotra/SeleniumJava.git</url>
 		
-	</scm>
+	  <tag>v0.0.1</tag>
+  </scm>
 
 
 
@@ -53,7 +54,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-release-plugin</artifactId>
-				<version>2.5.3</version>
+				<version>2.5.1</version>
 				<configuration>
 					<tagNameFormat>v@{project.version}</tagNameFormat>
 				</configuration>

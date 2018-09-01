@@ -4,7 +4,7 @@
   <artifactId>SeleniumWithJava</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>SeleniumJava</name>
-  <description>Selenium with Java</description>
+  <description>Selenium with Java Develop</description>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
